@@ -17,7 +17,7 @@ pipeline {
             steps {
                 script {
                     // Run the executable of the compiled C++ file
-                    sh './new_file'
+                    sh './newfile'
                 }
             }
         }
